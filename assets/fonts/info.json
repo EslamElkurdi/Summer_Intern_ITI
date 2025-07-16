@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ahmed Zaki",
+    "address": "Cairo, Egypt",
+    "age": 26,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/White_cat_on_chair.jpg",
+    "description": "Flutter Developer and Instructor. Loves building UI and teaching students."
+  },
+  {
+    "name": "Sara Ali",
+    "address": "Alexandria, Egypt",
+    "age": 24,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg",
+    "description": "UI/UX Designer with a passion for Flutter."
+  },
+  {
+    "name": "Mohamed Nour",
+    "address": "Giza, Egypt",
+    "age": 30,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg",
+    "description": "Backend developer learning Flutter."
+  },
+  {
+    "name": "Lina Hassan",
+    "address": "Mansoura, Egypt",
+    "age": 22,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Persian_Cat_by_Samir.jpg",
+    "description": "Student at Computer Science college."
+  },
+  {
+    "name": "Ziad Kamal",
+    "address": "Tanta, Egypt",
+    "age": 27,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mackerel_tabby_and_white_cat_Julie.jpg",
+    "description": "Mobile app enthusiast and cat lover."
+  }
+]
