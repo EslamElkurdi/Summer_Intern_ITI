@@ -47,8 +47,15 @@ class _MyAppState extends State<MyApp> {
           ],
         ),
       ),
+      
+      
       appBar: AppBar(title: Text("Json in Flutter")),
+      
+      
       body: bodyWidgets[_selectedIndex],
+
+
+      
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: (value) {
