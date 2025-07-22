@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:iti_flutter/flutter_day_3.dart';
+import 'package:iti_flutter/screens/flutter_day_3.dart';
 
 enum Gender {
   male("Male"),

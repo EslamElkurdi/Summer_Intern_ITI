@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:iti_flutter/flutter_day_3.dart';
-import 'package:iti_flutter/flutter_day_6.dart';
+import 'package:iti_flutter/cubit/counter_cubit/counter_cubit.dart';
+import 'package:iti_flutter/cubit/todo_cubit/todo_cubit.dart';
+import 'package:iti_flutter/screens/counter_screen.dart';
+import 'package:iti_flutter/screens/flutter_day_3.dart';
+import 'package:iti_flutter/screens/flutter_day_6.dart';
 import 'package:iti_flutter/helpers/db_helper.dart';
 import 'package:iti_flutter/helpers/shared_pref_helper.dart';
-import 'package:iti_flutter/home_screen.dart';
+import 'package:iti_flutter/screens/flutter_day_7.dart';
+import 'package:iti_flutter/screens/login_screen.dart';
+import 'package:iti_flutter/screens/todo_screen.dart';
+// import 'package:iti_flutter/screens/home_screen.dart';
 import 'package:iti_flutter/style/colors.dart';
 
 void main() async {
@@ -16,7 +23,27 @@ void main() async {
 
   // runApp(MyAppShared(isDark: isDark ?? false));
 
-  runApp(MySVG());
+  runApp(BaseClass());
+}
+
+class BaseClass extends StatelessWidget {
+   BaseClass({super.key});
+
+  // final counterCubit = CounterCubit();
+  final todoCubit = TodoCubit();
+
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocProvider.value(
+      // value: counterCubit,
+      value: todoCubit,
+
+      child: MaterialApp(
+        home: TodoScreen(),
+      ),
+    );
+  }
 }
 
 class MySVG extends StatelessWidget {

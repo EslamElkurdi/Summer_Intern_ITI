@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:iti_flutter/person.dart';
+import 'package:iti_flutter/models/person.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});

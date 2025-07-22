@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:iti_flutter/contact_and_about_screen.dart';
-import 'package:iti_flutter/greet_screen.dart';
+import 'package:iti_flutter/screens/contact_and_about_screen.dart';
+import 'package:iti_flutter/screens/greet_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
